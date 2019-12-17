@@ -13,7 +13,6 @@ class mipb {
             ..._options
         };
         const existing = document.getElementById("mipb-stylesheet");
-        console.log(existing);
         if (existing == null) {
             const linkElement = document.createElement("link");
             linkElement.setAttribute("id", "mipb-stylesheet");
