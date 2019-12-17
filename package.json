@@ -1,0 +1,32 @@
+{
+  "name": "micro-indeterminate-progress-bar",
+  "version": "0.0.1",
+  "description": "miniature library for adding an indeterminate progress bar",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abenrob/micro-indeterminate-progress-bar.git"
+  },
+  "keywords": [
+    "progress",
+    "bar",
+    "indeterminate"
+  ],
+  "author": "abenrob",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/abenrob/micro-indeterminate-progress-bar/issues"
+  },
+  "homepage": "https://github.com/abenrob/micro-indeterminate-progress-bar#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
