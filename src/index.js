@@ -36,6 +36,11 @@ class mipb {
         // create the progress container
         this.element = document.createElement("div");
         this.element.style.backgroundColor = options.bg;
+        if (options.style) {
+            for (let [key, value] of Object.entries(options.style)) {
+                this.element.style[key] = value
+            }
+        }
 
         // create the animated progress bar
         const throbber = document.createElement("div");
